@@ -33,6 +33,8 @@ Tasques:
 (fins a 1 punt)
 - Cada pàgina ha de contenir les etiquetes meta (amb open graph) per compartir títol, descripció, imatge (gran), nom de l'aplicació i url de la pàgina. 
 (fins a 1 punt)
-### Fins a + 2 punts: acabat final (o dit d'un altra forma: complir les especificacions del client o donar solucions elegants alternatives)
+### Fins a + 2 punts: acabat final (o dit d'un altra forma: complir les especificacions del client o donar solucions elegants alternatives).
+
+### Esquema dinujado a cuadernp de como sera mi  HTML
 
 ![Imagen inicial del esquemaHTML](imagenes/EsquemaHTML.jpg)
