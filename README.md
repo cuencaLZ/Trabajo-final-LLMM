@@ -4,22 +4,22 @@ Projecte final: Pàgina web de notícies auto emplenable amb el scroll
 Objectiu final: Realitzar una aplicació web de notícies que, en fer scroll fins abaix, recarregui més notícies amb html, , JSON, jQuery i Bootstrap.
 
 
-##Abans de començar:
+## Abans de començar:
 
-Es recomana l'ús d'un quadern per fer un disseny i el seguiment del desenvolupament de l'aplicació. .
+- Es recomana l'ús d'un quadern per fer un disseny i el seguiment del desenvolupament de l'aplicació. .
 
-Per disssenyar i programar primer ho feim al quadern, i quan ho tenim clar, es traduiex a l'ordinador.
+- Per disssenyar i programar primer ho feim al quadern, i quan ho tenim clar, es traduiex a l'ordinador.
 
 
-##Especificacions del client:
+## Especificacions del client:
 
-- La maquetació (layer design) ha de deixar 300 px d'espai a la dreta de la pantalla per publicitat si la pantalla és suficientment -ample. Tot altre diseny és lliure.
-- Per dispositius mòbils, la publicitat anirá fixada a la part inferior o bé només es mostrará a la part superior (i desapareixerà en fer scroll) amb un alt de 90px. Pots triar l'opció. Tot altre diseny és lliure.
-- Les dades són: títol (entorn a 8 paraules), imgbig (url al json, imatge a la carpeta), imgmid (url al json, imatge a la carpeta), descripció (mínim de 300 caràcters), data i hora (datetime).
-- Totes les notícies han de tenir el mateix format i mostrar les dades especificades de forma elegant a tot dispositiu.
+## La maquetació (layer design) ha de deixar 300 px d'espai a la dreta de la pantalla per publicitat si la pantalla és suficientment -ample. Tot altre diseny és lliure.
+## Per dispositius mòbils, la publicitat anirá fixada a la part inferior o bé només es mostrará a la part superior (i desapareixerà en fer scroll) amb un alt de 90px. Pots triar l'opció. Tot altre diseny és lliure.
+## Les dades són: títol (entorn a 8 paraules), imgbig (url al json, imatge a la carpeta), imgmid (url al json, imatge a la carpeta), descripció (mínim de 300 caràcters), data i hora (datetime).
+## Totes les notícies han de tenir el mateix format i mostrar les dades especificades de forma elegant a tot dispositiu.
 Tasques:
 
-##Realitza la maquetació del projecte. Entrega un breu document amb l'análisi i la planificació (molt important, aquesta planificació s'ha de cumplir) al README.md (valen fotos d'esquemes del quadern).
+- Realitza la maquetació del projecte. Entrega un breu document amb l'análisi i la planificació (molt important, aquesta planificació s'ha de cumplir) al README.md (valen fotos d'esquemes del quadern).
 (fins a 1 punts).
 - Presenta news.html amb 3 notícies (ja escrites al html, no carregar amb js) i emmagatzema 6 noticies més en dos fitxers, data/1.json data/2.json per ser carregades amb js.
 (fins a 2 punts)
