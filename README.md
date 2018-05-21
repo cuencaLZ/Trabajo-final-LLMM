@@ -35,4 +35,4 @@ Tasques:
 (fins a 1 punt)
 ### Fins a + 2 punts: acabat final (o dit d'un altra forma: complir les especificacions del client o donar solucions elegants alternatives)
 
-![Imagen inicial del esquemaHTML](../imagenes/EsquemaHTML.jpg)
+![Imagen inicial del esquemaHTML](imagenes/EsquemaHTML.jpg)
