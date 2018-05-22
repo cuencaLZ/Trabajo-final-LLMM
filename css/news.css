@@ -5,12 +5,24 @@ html, body {
     margin: 0;
     background-image:url(https://i.pinimg.com/originals/6d/fe/cf/6dfecf6aa4e0423d0150def9642b4774.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100% ;
-	text-align:justify
+    background-attachment: fixed ;
+    background-size: 100%;
+}
+.h1 {
+    text-align: center;
+}
+.menu {
+    border-color:rgb(138, 91, 39);
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
 }
 
-.new {
-    margin-bottom: 15px;
+.añadir {
+    margin-bottom: 10px;
     margin-left: 0;
     margin-right: 5px;
     border-color:rgb(138, 91, 39);
@@ -21,27 +33,34 @@ html, body {
     color: black; 
 }
 
-.newData, .newDescription {
+.fecha, .descripcion {
     float: right;
 }
 
-.newData  {
+.fecha  {
     padding: 0;
     padding-left: 0;
     width: 250px;
-    margin-right: 20px;
+    margin-right: 0;
+    margin-left: 10px;
 }
 
-.newImg {
-	width: 250px;
+.añadirimagen {
+    width: 250px;
+    height: 150px;
 }
 
-.newDescription {
+.descripcion {
     width: calc(100% - 290px); 
 	font-size: 16px;
 }
 
-.newTitle {
-    font-size: 150%; 
-	text-align: left;
+#cargando {
+	text-align: center;
+}
+
+#vermasboton {
+	background-color: rgba(175, 229, 89, 1); 
+	border-color: rgba(175, 229, 89, 1);
+	color: black;
 }
