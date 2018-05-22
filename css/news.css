@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image:url(https://i.pinimg.com/originals/6d/fe/cf/6dfecf6aa4e0423d0150def9642b4774.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+	text-align:justify
+}
+
+.new {
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 5px;
+    border-color:rgb(138, 91, 39);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgb(230, 247, 4);
+    color: black; 
+}
+
+.newData, .newDescription {
+    float: right;
+}
+
+.newData  {
+    padding: 0;
+    padding-left: 0;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.newImg {
+	width: 250px;
+}
+
+.newDescription {
+    width: calc(100% - 290px); 
+	font-size: 16px;
+}
+
+.newTitle {
+    font-size: 150%; 
+	text-align: left;
+}
