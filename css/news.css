@@ -46,8 +46,10 @@ html, body {
 }
 
 .añadirimagen {
+    margin-top: -5px;
     width: 250px;
     height: 150px;
+    margin-bottom: 2px;
 }
 
 .descripcion {
@@ -63,4 +65,11 @@ html, body {
 	background-color: rgba(175, 229, 89, 1); 
 	border-color: rgba(175, 229, 89, 1);
 	color: black;
+}
+.well {
+    background-color: transparent;
+    text-align: center;
+    border-color:transparent;
+    border-radius: 70%;
+    margin-top: 3px;
 }
