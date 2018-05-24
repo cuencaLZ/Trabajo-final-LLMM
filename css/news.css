@@ -3,7 +3,7 @@ html, body {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-image:url(https://i.pinimg.com/originals/6d/fe/cf/6dfecf6aa4e0423d0150def9642b4774.jpg);
+    background-image:url(https://image.freepik.com/vector-gratis/textura-gris-elegante_1100-152.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed ;
     background-size: 100%;
@@ -73,21 +73,35 @@ html, body {
 }
 #navbar-1{
     background-color: gold;
-    border-color: black;
-    border: 3px solid;
     padding: 1%;
+    background-color:#2E272E;	
+    padding-bottom: 15px;
+	border:7px double #D4AF37;
+    border-radius:5px;
+    font-family: Comic Sans MS;
+}
+#navbar-1 li{
+    color: gray;
+    margin-left: 8px;
+   
+}
+#navbar-2{
+    padding: 1%;
+    margin-right: 40px;
+
 }
 .navbar{
     background-color: transparent;
     border: transparent;
+    text-align: center;
 }
-#navbar-2{
-    background-color:transparent;
-    border-color: black;
+.navbar-default .navbar-brand {
+    color:transparent;
+    padding-right: 8%;
 }
 #navbar-2 a{
     margin-left: 4%;
-    color: gray;
+    color: aquamarine;
 }
 #add {   
     height: 600px;
@@ -110,5 +124,13 @@ html, body {
 	left: 0px;
 	right: 0px;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.75);
+}
+@media screen and (min-width: 968px){
+	#home {
+		display: none;
+	}
+	#addMContainer {
+		display: none;	
+	}  
 }
