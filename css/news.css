@@ -47,8 +47,6 @@ html, body {
 
 .añadirimagen {
     margin-top: -5px;
-    width: 250px;
-    height: 150px;
     margin-bottom: 2px;
 }
 
@@ -90,4 +88,27 @@ html, body {
 #navbar-2 a{
     margin-left: 4%;
     color: gray;
+}
+#add {   
+    height: 600px;
+    width: 300px;
+    position: absolute;
+    border: 0;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+#addM {   
+    height: 100px;
+    width: 320px;
+	overflow: hidden;
+    border: 0;
+}
+#addMContainer {   
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.75);
 }
