@@ -37,4 +37,4 @@ Tasques:
 
 ### Esquema dinujado a cuadernp de como sera mi  HTML
 
-![Imagen inicial del esquemaHTML](imagenes/EsquemaHTML.jpg)
+![Imagen inicial del esquemaHTML](img/EsquemaHTML.jpg)
