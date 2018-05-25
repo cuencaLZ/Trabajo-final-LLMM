@@ -154,7 +154,8 @@ h1 {
 }
 @media screen and (max-width: 600px){
     .fecha{
-        margin-right: 6%;
+        margin-right: 18%;
+        margin-left: 0%;
     }
     .descripcion{
         width: auto;
