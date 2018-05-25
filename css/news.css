@@ -168,3 +168,25 @@ h1 {
    
     
 }
+@media screen and (max-width:450px){
+    .fecha{
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .img-rounded{
+        width: 200px;
+        margin-left: 9%;
+    }
+    h1{
+        font-size: 500%;
+    }
+}
+@media screen and (max-width:340px){
+    .navbar-default .navbar-brand {
+        font-size: 60%;
+    }
+    h1{
+        font-size: 400%;
+    }
+}
+
