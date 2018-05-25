@@ -8,8 +8,12 @@ html, body {
     background-attachment: fixed ;
     background-size: 100%;
 }
-.h1 {
+h1 {
     text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 520%;
+    background-color: rgba(33, 194, 54, 0.6);
+    border-radius: 30%;
 }
 .menu {
     border-color:rgb(138, 91, 39);
@@ -45,10 +49,6 @@ html, body {
     margin-left: 10px;
 }
 
-.añadirimagen {
-    margin-top: -5px;
-    margin-bottom: 2px;
-}
 
 .descripcion {
     width: calc(100% - 290px); 
@@ -72,44 +72,37 @@ html, body {
     margin-top: 3px;
 }
 #navbar-1{
-    background-color: gold;
-    padding: 1%;
     background-color:#2E272E;	
-    padding-bottom: 15px;
 	border:7px double #D4AF37;
     border-radius:5px;
+    text-align: center;
+    margin-left: -2%;
     font-family: Comic Sans MS;
 }
-#navbar-1 li{
-    color: gray;
-    margin-left: 8px;
-   
-}
 #navbar-2{
-    padding: 1%;
-    margin-right: 40px;
-
+    background-color:rgb(47, 224, 255);	
+	border:7px double rgb(212, 55, 55);
+    border-radius:5px;
+    text-align: center;
+    margin-left: -2%;
+    font-family: Comic Sans MS;
+}
+#navbar-2 a{
+    font-size: 120%;
 }
 .navbar{
     background-color: transparent;
     border: transparent;
     text-align: center;
 }
-.navbar-default .navbar-brand {
-    color:transparent;
-    padding-right: 8%;
-}
-#navbar-2 a{
-    margin-left: 4%;
-    color: aquamarine;
-}
+
 #add {   
     height: 600px;
     width: 300px;
     position: absolute;
     border: 0;
-    margin-left: 200px;
-    margin-top: 200px;
+    margin-left: 1%;
+    margin-top: 18%;
 }
 #addM {   
     height: 100px;
@@ -133,4 +126,44 @@ html, body {
 	#addMContainer {
 		display: none;	
 	}  
+}
+@media screen and (max-width: 968px){
+
+	#add {
+		display: none;	
+    }  
+    
+}
+@media screen and (max-width:1200px){
+
+	#navbar-1{
+        font-size: 65%;
+    }
+    #navbar-2{
+        font-size: 65%;
+    } 
+    
+}
+@media screen and (max-width: 767px){
+    
+	#addMContainer {
+		display: block;		
+    }
+   
+    
+}
+@media screen and (max-width: 600px){
+    .fecha{
+        margin-right: 6%;
+    }
+    .descripcion{
+        width: auto;
+        text-align: center;
+    } 
+    .navbar-default .navbar-brand {
+        color: #777;
+        font-size: 90%;
+    }
+   
+    
 }
