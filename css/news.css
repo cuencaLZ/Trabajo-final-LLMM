@@ -40,6 +40,11 @@ h1 {
 .fecha, .descripcion {
     float: right;
 }
+.fechanews {
+    font-size: 145%;
+    background-color: rgba(15, 40, 179, 0.6);
+    margin: 3%; 
+}
 
 .fecha  {
     padding: 0;
@@ -53,6 +58,10 @@ h1 {
 .descripcion {
     width: calc(100% - 290px); 
 	font-size: 16px;
+}
+.descripcionnews{
+    text-align: justify;
+    margin: 3%;
 }
 
 #cargando {
@@ -95,6 +104,10 @@ h1 {
     border: transparent;
     text-align: center;
 }
+.video{
+    width: 100%;
+    height: 60vh;
+}
 
 #add {   
     height: 600px;
@@ -118,6 +131,9 @@ h1 {
 	right: 0px;
 	width: 100%;
     background-color: rgba(0, 0, 0, 0.75);
+}
+.descripcionnews .img-rounded{
+    width: 100%
 }
 @media screen and (min-width: 968px){
 	#home {
