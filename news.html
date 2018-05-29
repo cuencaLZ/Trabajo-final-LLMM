@@ -34,6 +34,7 @@
     <meta property="og:image" content="https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/img/lagbig.png">
     <meta property="og:description" content="Pagina donde puees encontrar y leer las ultimas noticias en el mundo con imagenes y videos para mantenerte actualizado en todo momento">
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -194,7 +195,42 @@
                     </div>
                 </div>
             </article>
+            <div id="loadedNews">
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <!-- Load Image -->
+                <img id="loading" src="img/loading.gif" class="center-block" alt="Cargando...">
+
+                <!-- Load button -->
+                <div id="loadButtonContainer">
+                    <button type="button" id="loadButton" class="btn btn-success">Ver noticias antiguas</button>
+                </div>
+            </div>
         </main>
+        <!-- Modal -->
+			<div class="modal fade" id="newModal" role="dialog">
+				<div class="modal-dialog">
+    
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Imagen de la noticia:</h4>
+						</div>
+						<div class="modal-body">
+							<img src="img/loading.gif" class="img-rounded img-responsive center-block" id="modalImg" alt=""/>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+      
+				</div>
+			</div>
+			
+			<br>
     </div>
     <!-- Ads Smartphone -->
     <div id="addMContainer">

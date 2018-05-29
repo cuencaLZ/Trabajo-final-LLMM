@@ -136,6 +136,43 @@ h1 {
 .descripcionnews .img-rounded{
     width: 100%
 }
+
+.tooltip > .tooltip-inner {
+    background-color: rgba(160, 224, 88, 255);
+    color: black; 
+}
+.tooltip.left > .tooltip-arrow {
+    border-left: 5px solid rgba(160, 224, 88, 255);
+}
+
+.Nfecha, .Ndescripcion {
+    float: left;
+}
+.newData  {
+    padding: 0;
+    padding-left: 0;
+    width: 250px;
+    margin-right: 20px;
+}
+.newImg {
+	width: 250px;
+}
+.newDescription {
+    width: calc(100% - 290px); 
+	font-size: 16px;
+}
+.Ntitulo {
+    font-size: 150%; 
+	text-align: left;
+}
+#loadButtonContainer {
+	text-align: center;
+}
+#loadButton {
+	background-color: rgba(175, 229, 89, 1); 
+	border-color: rgba(175, 229, 89, 1);
+	color: black;
+}
 @media screen and (min-width: 968px){
 	#home {
 		display: none;
