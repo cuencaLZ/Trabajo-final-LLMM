@@ -21,7 +21,7 @@ function addrow(json) {
     $.each(json, function (i, item) {
         $("#loadedNews").append(
             '<article class="col-xs-12 col-sm-10 col-md-10">'+
-		'<div class="añadirrow">' +
+		'<div class="añadir row">' +
             '<div class="fecha">' +
 				'<div class="well well-sm">' + 
 					item.date +
@@ -65,9 +65,9 @@ $(document).ready(function(){
 	
 	$("#loadButton").click(function() {load();});
 		
-	$("body").on("click", ".newImg", function(){
+	$("body").on("click", ".Notimagen", function(){
 		var id = $(this).attr('id');
-		$("#modalImg").attr("src","img/img" + id + "big.jpg");
+		$("#modalImg").attr("src","img/imgbig" + id +".jpg");
     });
 	
 	
