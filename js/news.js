@@ -1,10 +1,10 @@
 var loaded = 1;
-var toggleOn = false;
+var activado = false;
 var theme = 0;
 var manectricX = $(window).width();
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height() && toggleOn == true) {
+    if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height() && activado == true) {
         load();
     }
 });
@@ -52,21 +52,21 @@ function addrow(json) {
 
 $(document).ready(function(){
 	
-	$("#toggleOn").tooltip();
-    $("#toggleOff").tooltip();
-	$("#toggleOn").hide();
+	$("#activado").tooltip();
+    $("#desactivado").tooltip();
+	$("#activado").hide();
 	$("#loading").hide();
 	
     $(".toggle").click(function(){
-		if (toggleOn == false) {
-			$("#toggleOff").hide();
-			$("#toggleOn").show();
-			toggleOn = true;
+		if (activado == false) {
+			$("#desactivado").hide();
+			$("#activado").show();
+			activado = true;
 			$("#loadButton").hide();
 		} else {
-			$("#toggleOn").hide();
-			$("#toggleOff").show();
-			toggleOn = false;
+			$("#activado").hide();
+			$("#desactivado").show();
+			activado = false;
 			$("#loadButton").show();
 		}
     });
