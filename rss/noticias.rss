@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+	<channel>
+	
+		<title>Lagarto Noticias</title>
+		<link>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/news.html</link>
+		<description>Pagina donde puees encontrar y leer las ultimas noticias en el mundo con imagenes y videos para mantenerte actualizado en todo momento</description>
+		<image>
+			<url>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/img/lagmid.png</url>
+			<title>Lagarto Noticias</title>
+			<link>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/news.html</link>
+		</image>
+
+		<item>
+			<link>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/news1.html</link>
+			<pubDate>Mon, 21 May 2018 14:16:00 EST</pubDate>
+			<title>EEUU promete aplicar a Irán "las sanciones más fuertes de la historia</title>
+			<description><![CDATA[<img src="https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/img/imgmid1.png"/>Estados Unidos aumentará la presión financiera sobre Irán con las "sanciones más fuertes de la historia", después de que Washington se retirase del acuerdo nuclear de 2015 con Teherán, ha dicho este lunes el secretario de Estado Mike Pompeo.]]></description>
+		</item>
+
+		<item>
+			<link>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/news2.html</link>
+			<pubDate> Mon, 21 May 2018 10:47:00 EST</pubDate>
+			<title>Guardia Civil se incauta de casi una tonelada de cocaína en el puerto de Algeciras</title>
+			<description><![CDATA[<img src="https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/img/imgmid2.jpg"/>La Guardia Civil, en el marco de la operación Culmen, ha detenido a 10 personas pertenecientes a una organización criminal dedicada al tráfico de drogas, informa el instituto armado en un comunicado. En la operación se han intervenido un total de 911 kilogramos de cocaína.]]></description>
+		</item>
+		<item>
+			<link>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/news.html</link>
+			<pubDate>Sun, 20 May 2018 20:26:00 EST</pubDate>
+			<title>Venezuela vota entre denuncias de irregularidades</title>
+			<description><![CDATA[<img src="https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/img/imgmid3.jpg"/>Venezuela está celebrando este domingo las elecciones que Nicolás Maduro soñaba, diseñadas a su medida para reelegirse durante otros seis años a pesar de que su gestión tiene un 75% de rechazo nacional y que el país sudamericano, el más rico del continente...]]></description>
+		</item>
+
+		<item>
+			<link>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/news.html</link>
+			<pubDate> Sat, 19 May 2018 16:01:00 EST</pubDate>
+			<title>Accidente de avión en Cuba: un Boeing en La Habana”</title>
+			<description><![CDATA[<img src="https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/img/imgmid4.jpg"/>Un Boeing 737 de Cubana de Aviación se estrelló cuando acababa de despegar al mediodía de la terminal principal del aeropuerto José Martí de la capital, con 104 pasajeros y seis tripulantes. El vuelo, arrendado a la compañía mexicana Damojh Global Air, se dirigía hacia la ciudad oriental de Holguín. Según el Gobierno de México, la aeronave había superado la revisión anual en noviembre del año pasado.]]></description>
+		</item>
+		<item>
+			<link>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/news.html</link>
+			<pubDate>Fri, 18 May 2018 14:40:00 EST</pubDate>
+			<title>Los obispos chilenos presentan su renuncia</title>
+			<description><![CDATA[<img src="https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/img/imgmid5.jpg"/>En un mea culpa histórico de la jerarquía católica chilena, todos sus obispos presentaron este viernes su dimisión ante el Papa Francisco por los escándalos de pederastia y su posterior encubrimiento durante años por parte de la cúpula eclesiástica. La rectificación del Pontífice, que en un principio ignoró a las víctimas, ha desencadenado esa decisión sin precedentes en la historia de la Iglesia chilena.]]></description>
+		</item>
+
+		<item>
+			<link>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/news.html</link>
+			<pubDate> Fri, 18 May 2018 11:39:00 EST</pubDate>
+			<title>Un hombre insulta a los empleados por hablar español”</title>
+			<description><![CDATA[<img src="https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/img/imgmid6.png"/>Los hechos ocurrieron en el local que la cadena estadounidense Fresh Kitchen tiene en Madison Avenue, en el distrito neoyorkino de Manhattan. Schlossberg esperaba su turno para realizar un pedido cuando prestó atención a una conversación en español que se estaba llevando a cabo cerca de él. El abogado no dio crédito a lo que estaba escuchando y estalló a gritos en medio del establecimiento.]]></description>
+		</item>
+		<item>
+			<link>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/news.html</link>
+			<pubDate>Tue, 15 May 2018 13:20:00 EST</pubDate>
+			<title>Putin inaugura el puente que une Rusia a Crimea</title>
+			<description><![CDATA[<img src="https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/img/imgmid7.jpg"/>Al cabo de una obra colosal en un lugar altamente simbólico, el presidente ruso, Vladimir Putin, inaugura este martes un estratégico puente que enlaza Crimea con Rusia con el objetivo de reducir el aislamiento de la península que Moscú anexionó en 2014.De 19 kilómetros de largo el 'Puente de Crimea', cruza el estrecho de Kertch.]]></description>
+		</item>
+
+		<item>
+			<link>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/news2.html</link>
+			<pubDate> Sat, 12 May 2018 18:41:00 EST</pubDate>
+			<title>Incidentes en Hamburgo tras el descenso a segunda por primera vez”</title>
+			<description><![CDATA[<img src="https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/img/imgmid8.jpg"/>El Hamburgo, campeón de Europa en 1983 y único equipo que había disputado hasta ahora las 55 ediciones de la Bundesliga, bajó por primera vez a la segunda división del fútbol alemán. La victoria del Wolfsburgo contra el Colonia (4-1) certificó el descenso del Hamburgo.]]></description>
+		</item>
+
+		<item>
+			<link>https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/news2.html</link>
+			<pubDate> Sat, 5 May 2018 17:25:00 EST</pubDate>
+			<title>Polémica en Marruecos por el boicot a tres empresas”</title>
+			<description><![CDATA[<img src="https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/img/imgmid9.jpg"/>Hace dos semanas, el 20 de abril, se difundió en Marruecos por Facebook una campaña contra tres potentes marcas del país. El objetivo: atacar a los líderes del mercado para que las posibles pérdidas los empujen a bajar sus precios. En el punto de mira de los cabreados consumidores se puso Centrale Danone, subsidiaria del grupo francés del mismo nombre.]]></description>
+		</item>
+	</channel>
+
+</rss>
