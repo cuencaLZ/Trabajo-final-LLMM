@@ -139,11 +139,15 @@ h1 {
 #loadButtonContainer {
     text-align: center;
     margin-bottom: 1%;
+   
+   
 }
 #loadButton {
 	background-color: rgba(175, 229, 89, 1); 
 	border-color: rgba(175, 229, 89, 1);
-	color: black;
+    color: black;
+    border-radius: 20%;
+   
 }
 #scroll{
     border:7px double rgb(112, 212, 55);
