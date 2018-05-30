@@ -143,8 +143,8 @@ h1 {
    
 }
 #loadButton {
-	background-color: rgba(175, 229, 89, 1); 
-	border-color: rgba(175, 229, 89, 1);
+    background-color: rgb(89, 229, 229);
+	border-color: rgb(139, 165, 97);
     color: black;
     border-radius: 20%;
    
