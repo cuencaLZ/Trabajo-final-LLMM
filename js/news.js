@@ -3,10 +3,16 @@ var toggleOn = false;
 var theme = 0;
 var manectricX = $(window).width();
 
+$(window).scroll(function () {
+    if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height() && toggleOn == true) {
+        load();
+    }
+});
+
 function load() {
     if (loaded < 3) {
 		$("#loading").show();
-        $.getJSON("https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/tree/master/data/" + loaded + ".json", function (jsonObject) {
+        $.getJSON("https://rawgit.com/cuencaLZ/Trabajo-final-LLMM/master/data/" + loaded + ".json", function (jsonObject) {
             addrow(jsonObject);
 			$("#loading").hide();
         }); 
