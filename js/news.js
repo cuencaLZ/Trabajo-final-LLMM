@@ -41,7 +41,7 @@ function addrow(json) {
 				'<p>' + 
 					item.description + 
 				'</p>' + 
-				'<a href="news2.html">'+
+				'<a href="news.html">'+
                             'Leer mas...'+
                 '</a>'+
 			'</div>' + 

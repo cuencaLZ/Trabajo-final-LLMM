@@ -137,7 +137,8 @@ h1 {
     border-left: 5px solid rgba(160, 224, 88, 255);
 }
 #loadButtonContainer {
-	text-align: center;
+    text-align: center;
+    margin-bottom: 1%;
 }
 #loadButton {
 	background-color: rgba(175, 229, 89, 1); 
@@ -156,7 +157,10 @@ h1 {
 
 	#add {
 		display: none;	
-    }  
+    } 
+    #loadButtonContainer {
+        margin-bottom: 17%;
+    }
     
 }
 @media screen and (max-width:1200px){
@@ -172,10 +176,13 @@ h1 {
 @media screen and (max-width: 767px){
     
 	#addMContainer {
-        display: none;	
+        display:block;	
     }
     .navbar-default .navbar-brand {
         color: rgb(156, 27, 189);
+    }
+    #loadButtonContainer {
+        margin-bottom: 20%;
     }
    
     
@@ -189,6 +196,9 @@ h1 {
         width: auto;
         text-align: center;
     } 
+    #loadButtonContainer {
+        margin-bottom: 26%;
+    }
    
    
     
@@ -214,6 +224,9 @@ h1 {
     .video{
         height: 40vh;
     }
+    #loadButtonContainer {
+        margin-bottom: 36%;
+    }
 }
 @media screen and (max-width:340px){
     .navbar-default .navbar-brand {
@@ -224,6 +237,9 @@ h1 {
     }
     .video{
         height: 25vh;
+    }
+    #loadButtonContainer {
+        margin-bottom: 40%;
     }
 }
 
