@@ -142,6 +142,11 @@ h1 {
    
    
 }
+#botonhome{
+    margin-bottom:20%;
+    border:7px double rgb(112, 212, 55);
+    background-color: #2E272E;
+}
 #loadButton {
     background-color: rgb(89, 229, 229);
 	border-color: rgb(139, 165, 97);
@@ -161,6 +166,9 @@ h1 {
     width: 100%;
 }
 @media screen and (min-width: 968px){
+    #botonhome{
+        display: none
+    }
 	#home {
 		display: none;
 	}
@@ -242,11 +250,16 @@ h1 {
     #loadButtonContainer {
         margin-bottom: 36%;
     }
+    #botonhome{
+        margin-bottom: 40%;
+
+    }
 }
 @media screen and (max-width:340px){
     .navbar-default .navbar-brand {
         font-size: 60%;
     }
+    
     h1{
         font-size: 400%;
     }
@@ -259,5 +272,10 @@ h1 {
     #loadButtonContainer {
         margin-bottom: 40%;
     }
+    @media screen and (max-height:500px){
+        #scroll{
+            height: 6.5vh;
+        }
+}
 }
 
