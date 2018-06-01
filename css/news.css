@@ -146,6 +146,8 @@ h1 {
     margin-bottom:20%;
     border:7px double rgb(112, 212, 55);
     background-color: #2E272E;
+    text-align: center;
+    font-size: 120%;
 }
 #loadButton {
     background-color: rgb(89, 229, 229);
