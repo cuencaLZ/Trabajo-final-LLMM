@@ -1,7 +1,6 @@
 var loaded = 1;
 var activado = false;
 var theme = 0;
-var manectricX = $(window).width();
 
 $(window).scroll(function () {
     if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height() && activado == true) {
